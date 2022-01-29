@@ -1,4 +1,5 @@
 def calculator(expression):
+    print("Проверка")
     allowed = "+-/*"
     if not any(sign in expression for sign in allowed):
         raise ValueError(f'Выражение должно содержать хотя бы один знак ({allowed})')
